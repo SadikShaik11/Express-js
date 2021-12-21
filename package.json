@@ -1,0 +1,28 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "\"nothing\"",
+  "main": "routes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server2.js",
+    "log": "echo \"successfully running\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SadikShaik11/Node-JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SadikShaik11/Node-JS/issues"
+  },
+  "homepage": "https://github.com/SadikShaik11/Node-JS#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2"
+  }
+}
