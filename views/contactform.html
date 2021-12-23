@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us </title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+
+<body>
+    <header>
+        <nav>
+            <ul class="items">
+                <li>
+                    <a href="/shop.html" class="itemliste-active">Home</a>
+                </li>
+                <li>
+                    <a href="/shop/product-body" class="itemlist">Add Product</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="main">
+        <div class="formelements">
+
+            <form action="/shop/contact" method="POST">
+                <label for="username" class="username" required>Name</label>
+                <input type="text" name="name" id="usernmae" placeholder="please enter full name">
+                <br><br>
+                <label for="email" class="email">Mail</label>
+                <input type="email" name="name" id="usernmae" required>
+                <br> <br>
+                <textarea name="quries" class="quries" cols="51" rows="10">write your quires here</textarea>
+                <br><br>
+                <button type="submit" id="formbtn"> Send </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <li>
+            <a href="/shop/contact">Contact us</a>
+        </li>
+    </footer>
+</body>
+
+</html>

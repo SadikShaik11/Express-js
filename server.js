@@ -1,21 +1,24 @@
-const http= require('http');
+const http = require('http');
+const path = require('path')
+const express = require('express');
+const root_dir = require('./util/path')
+const body_parser = require('body-parser');
 
-const express =require('express');
+const admin = require('./routes/admin');
 
-const body_parser=require('body-parser');
+const shop = require('./routes/shop');
+const exp = require('constants');
 
-const admin= require('./routes/admin');
-
-const shop =require('./routes/shop');
-
-const ex= express();
-
+const ex = express();
+ex.use(express.static(path.join(__dirname, 'images')))
+ex.use(express.static(path.join(__dirname, 'public')));
 ex.use(body_parser.urlencoded({}));
 ex.use(admin);
-ex.use('/shop',shop);
+ex.use('/shop', shop);
 
-ex.use((req,res)=>{
-     res.send("<h1 style ='color:red' >Error 404 Page Not Found ...</h1>")
+ex.use((req, res) => {
+     res.status(404);
+     res.sendFile(path.join(__dirname, 'views', '404page.html'));
 })
 
 // const server = http.createServer(ex)

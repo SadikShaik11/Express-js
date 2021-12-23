@@ -1,0 +1,107 @@
+
+
+ header{
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(186, 240, 240);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.items{
+    display: flex;
+    align-items: center;
+}
+li {
+
+   
+    font-size: 25px;
+    display: inline-flex;
+    padding-inline-end: 17px;
+
+
+}
+
+ul {
+    list-style: none;
+    background-color: orange;
+    border-radius: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(102, 74, 14, 0.897)
+}
+
+ .itemlist-active,
+ .itemlist:hover{
+         font-size: 30px;
+          color: brown;
+ }
+ 
+ .contact{
+     margin-left: 90%;
+     text-align: right;
+     font-size: 20px;
+ }
+ .main{
+    
+     height: 13.3cm;
+ }
+ footer{
+    display: flex;
+align-items: center;
+    background-color: brown;
+     height: 2cm;
+     align-items: center;
+ }
+ footer a{
+
+color: azure;
+ }
+ p{
+    
+     text-align: center;
+     font-size: 23pt;
+     color: black;
+ }
+ /* form{
+     display: flex;
+     align-items: center;
+     padding-left: 25%;
+ } */
+
+ img{
+     padding-left: 31%;
+     height: 400px;
+     width: 400px;
+ }
+ #shopinglady{
+     height: 392px;
+     width: 301px;
+     float: right;
+     padding-right: 5px;
+ }
+ .formelements contactf{
+     display: flex;
+     align-items: center;
+     margin-top: 10px;
+     float: left;
+ }
+ .username,.email{
+
+  margin-left: 40%;
+ }
+ .quries{
+    margin-left: 33%;
+ }
+ #formbtn{
+      margin-left: 45%;
+      font-size: 20px;
+      margin-bottom: 5px;
+      
+ }
+
