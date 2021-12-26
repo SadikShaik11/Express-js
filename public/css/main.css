@@ -1,5 +1,6 @@
 
 
+
  header{
     background-color: aquamarine;
     margin: 0;
@@ -8,6 +9,7 @@
 body{
     margin: 0;
     padding: 0;
+    
     background-color: rgb(186, 240, 240);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -105,3 +107,14 @@ color: azure;
       
  }
 
+@media screen and (max-width:500px ) {
+    body{
+        font-size:xx-small;
+    }
+    .main{
+        width: 15cm;
+    }
+    body{
+        background-color: red;
+    }
+}

@@ -14,7 +14,7 @@ router.get('/product-body', products.Addproduct)
 router.post('/product-body', products.Product_added_response)
 
 //Add a customer Query
-router.get('/contact', products.AddCustomerQuery)
+router.get('/contact?', products.AddCustomerQuery)
 
 //Storing Query
 router.post('/contact', products.CustomerQuery)
